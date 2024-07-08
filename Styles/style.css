@@ -279,6 +279,7 @@ body {
     height: 986.07px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 120px;
 }
 
 .holiday-text {
@@ -332,8 +333,155 @@ body {
     position: relative;
     z-index: 1;
 }
-.discount{
+
+.discount {
     position: absolute;
     bottom: 30%;
     left: 100%;
+}
+
+.portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+
+.prtfolio-text {
+    margin-bottom: 24px;
+}
+
+.prtfolio-text h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+}
+
+.prtfolio-text h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.prtfolio-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+    margin-top: 24px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.newletter {
+    margin: 0 auto;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.newletter h3 {
+    margin-top: 40px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.newletter p {
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.rectangle {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+}
+
+.thirty {
+    width: 210px;
+    background-color: red;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    position: absolute;
+    left: 67%;
+}
+
+.rectangle p {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 141px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer{
+    minwidth: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin-bottom: 0px;
+}
+
+.foot{
+    display: flex;
+    color: white;
+    width: 1185px;
+    height: 249px;
+    margin: 0 auto;
+    /* padding-top: 120px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.foot P{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+.foot-icon{
+    display: flex;
+    gap: 24px;
+    width: 1185px;
+    height: 150px;
+    margin: 0 auto;
+    /* padding-top: 120px; */
+    justify-content: center;
+    align-items: center;
 }
