@@ -63,6 +63,10 @@ body {
     text-align: center;
 }
 
+.komola1 {
+    color: rgb(255, 0, 0);
+}
+
 .second-container h3 {
     color: black;
     margin-top: 16px;
@@ -102,7 +106,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.third-banner-container{
+
+.third-banner-container {
     display: flex;
 }
 
@@ -147,6 +152,188 @@ body {
     text-align: left;
     text-transform: uppercase;
 }
-.image-section{
- margin: 68px 32px 67px 40px;
+
+.image-section {
+    margin: 68px 32px 67px 40px;
+}
+
+.gradient {
+    max-width: 1320px;
+    min-height: 480px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient-content {
+    display: flex;
+    gap: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.Tinda {
+    display: flex;
+    gap: 50px;
+    max-width: 1320px;
+    margin: 0 auto;
+    min-height: 460;
+    background-color: white;
+    background-position: center;
+    margin-top: 120px;
+    align-content: center;
+    margin-bottom: 120px;
+}
+
+.Tinda div {
+    max-width: 35%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.tinda-text1 {
+    margin-top: 104px;
+}
+
+.tinda-text1 h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tinda-text1 h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.tinda-text1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.tinda-image {
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50% 50%;
+    padding: 10px;
+}
+
+.tinda-text2 h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.tinda-text2 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.tinda-text2 img {
+    margin-top: 45px;
+}
+
+.holiday {
+
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-text h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-text h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox {
+    width: 796.46px;
+    height: 662.07px;
+    position: relative;
+    z-index: 1;
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 100%;
 }
